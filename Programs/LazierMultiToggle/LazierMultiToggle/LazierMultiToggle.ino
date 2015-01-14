@@ -10,24 +10,30 @@ boolean on[3];
 boolean toggleValue[3];
 int countToggle[3] = {0, 0, 0};
 int count = 0;
-Servo myServo;  
+Servo myServo1;
+Servo myServo2;
 int pos = 0;
-int i;
+int i = 0;
 
 
 void setup()
 {
   Serial.begin(9600);
-  myServo.attach(9);  // attaches the servo on pin 9 to the servo object
+  myServo1.attach(9);  // attaches the servo on pin 9 to the servo object
+  myServo2.attach(10);
 }
 
 void loop()
-{  
-  detect(0);
-  detect(1);
-  detect(2);
-  toggle();
+{   
+  detect(i);
+  toggle(i);
   act();
+  
+  i ++;
+  if(i >= 2)
+  {
+    i = 0;
+  }
 }
 
 void detect(i) 
@@ -67,19 +73,28 @@ void toggle(i)
 
 void act() 
 {
-  if (toggleValue[1] == true) 
+  if (toggleValue[0] == true) 
   {
-    myServo.write(90);
+    myServo1.write(90);
   } 
   else 
   {
-    myServo.write(0);
+    myServo1.write(0);
   }
-  if(toggleValue[2] == true)
+  if(toggleValue[1] == true)
   {
-      
+     digitalWrite(1, HIGH);
   }
   else
   {
+     digitalWrite(1, LOW);
+  }
+  if(toggleValue[2] == true)
+  {
+    myServo2.write(90);
+  }
+  else
+  {
+    myServo2.write(0);
   }
 }
