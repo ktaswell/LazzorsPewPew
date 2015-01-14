@@ -7,30 +7,41 @@ boolean on[3];
 Servo myServo;  
 int pos = 0;
 
-void setup(){
+
+void setup()
+{
   Serial.begin(9600);
   myServo.attach(9);  // attaches the servo on pin 9 to the servo object
 }
 
-void loop(){
+void loop()
+{
   detect(0);
   detect(1);
   act();
 }
 
-void detect(int i) {
+void detect(int i) 
+{
     int lightVal = analogRead(i);
-    if (lightVal > 300) {
+    if (lightVal > 300) 
+    {
       on[i] = true;
-    } else {
+    } 
+    else 
+    {
       on[i] = false;
     }
 }
 
-void act() {
-  if (on[1] == true) {
+void act() 
+{
+  if (on[1] == true) 
+  {
     myServo.write(90);
-  } else {
+  } 
+  else 
+  {
     myServo.write(0);
   }
 }
