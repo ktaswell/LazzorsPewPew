@@ -21,6 +21,8 @@ void setup()
   Serial.begin(9600);
   myServo1.attach(9);  // attaches the servo on pin 9 to the servo object
   myServo2.attach(10);
+  
+  pinMode(2, OUTPUT);
 }
 
 void loop()
@@ -31,7 +33,7 @@ void loop()
   act();
   
   delay(50);
-  
+    
   detect(1);
   toggle(1);
   act();
