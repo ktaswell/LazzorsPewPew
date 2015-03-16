@@ -1,0 +1,58 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=LaziersPCB
+*Date=14:43:24
+*CreatedBy=Fritzing 0.9.1b.11.19.8d2d5970658f0bed09c661c9ea9a515b5f40f44c
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;33.9847;-21.3476;0;Bottom;TXT2
+2;;;39.081;-2.05311;0;Bottom;TXT2
+3;220;THT;24.2202;-11.9858;90;Bottom;R2
+4;;;6.4402;-4.36584;0;Bottom;Via16
+5;;;3.21074;-21.3542;0;Bottom;TXT4
+6;;;36.9202;-19.6058;0;Bottom;Via3
+7;;;41.2779;-21.4772;0;Bottom;TXT2
+8;;;24.2202;-6.90584;0;Bottom;Via14
+9;;;24.2202;-17.0658;0;Bottom;Via13
+10;;;14.7246;-1.35865;0;Bottom;TXT5
+11;;;34.3802;-19.6058;0;Bottom;Via4
+12;;;11.5202;-19.6058;0;Bottom;Via20
+13;;;23.7669;-21.435;0;Bottom;TXT2
+14;;;18.1491;-24.3488;0;Bottom;TXT5
+15;;;8.82909;-21.3541;0;Bottom;TXT4
+16;;;34.3802;-4.36584;0;Bottom;Via5
+17;;;24.2202;-4.36584;0;Bottom;Via8
+18;;;24.5137;-2.18264;0;Bottom;TXT2
+19;;;21.8222;-2.26136;0;Bottom;TXT2
+20;;;21.6802;-19.6058;0;Bottom;Via11
+21;;;3.9002;-19.6058;0;Bottom;Via17
+22;220;THT;36.9202;-11.9858;90;Bottom;R1
+23;;;6.87399;-2.54635;0;Bottom;TXT4
+24;;;36.9202;-4.36584;0;Bottom;Via1
+25;;;5.90966;-21.3898;0;Bottom;TXT4
+26;;;36.9202;-6.90584;0;Bottom;Via7
+27;;;8.9802;-19.6058;0;Bottom;Via19
+28;;;31.421;-11.9653;90;Bottom;TXT1
+29;;;36.6856;-21.3043;0;Bottom;TXT2
+30;;;21.6802;-4.36584;0;Bottom;Via12
+31;;;3.42038;-2.59457;0;Bottom;TXT4
+32;;;21.1694;-21.4784;0;Bottom;TXT2
+33;;;39.4602;-19.6058;0;Bottom;Via2
+34;;;34.664;-2.11013;0;Bottom;TXT2
+35;;;36.9202;-17.0658;0;Bottom;Via6
+36;;;26.7996;-19.6272;0;Bottom;Via9
+37;;;16.0506;-13.0724;90;Bottom;TXT6
+38;;;28.193;-21.4978;0;Bottom;TXT2
+39;;;24.2202;-19.6058;0;Bottom;Via10
+40;;;6.4402;-19.6058;0;Bottom;Via18
+41;;;3.9002;-4.36584;0;Bottom;Via15
+42;;;12.2827;-21.3059;0;Bottom;TXT4
+43;;;5.11418;-12.1059;90;Bottom;TXT3
